@@ -16,7 +16,7 @@ describe 'Rap name:', ->
       random: sinon.spy()
     @rapname_module = rapname_module(@robot)
 
-  describe 'display rap name', ->
+  describe 'hubot rap name', ->
 
     it 'registers a respond listener', ->
-      expect(@robot.respond).to.have.been.calledWith(/rap name/)
+      expect(@robot.respond).to.have.been.calledWith(/hubot rap name/)

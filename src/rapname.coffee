@@ -17,7 +17,6 @@
 #   Morgan Wigmanich <okize123@gmail.com> (https://github.com/okize)
 
 module.exports = (robot) ->
-  robot.hear regex, (msg) ->
-    msg.send msg
 
-regex = new RegExp '/rap name/'
+  robot.respond /rap name/i, (msg) ->
+    msg.send msg
