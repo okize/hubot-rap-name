@@ -1,5 +1,5 @@
 # Description:
-#   Returns a rap version of a persons name
+#   Displays the rap version of a person's name
 #
 # Dependencies:
 #   None

@@ -2,7 +2,7 @@
 
 # Hubot: Rap Name
 
-Get your rap name
+Hubot script that displays the rap version of a person's name
 
 ## Installation
 
