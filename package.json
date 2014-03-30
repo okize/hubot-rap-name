@@ -31,13 +31,12 @@
     "url": "https://github.com/okize/hubot-rap-name/issues"
   },
   "dependencies": {
-    "hubot": ">= 2.4.3",
-    "coffee-script": "~1.6"
+    "coffee-script": "1.6.x"
   },
   "devDependencies": {
-    "mocha": "*",
-    "chai": "*",
-    "sinon-chai": "*",
-    "sinon": "*"
+    "mocha": "1.17.x",
+    "chai": "1.8.x",
+    "sinon-chai": "2.4.x",
+    "sinon": "1.7.x"
   }
 }
